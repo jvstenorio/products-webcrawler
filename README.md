@@ -7,6 +7,7 @@ It was developed only for learning purposes, feel free for give me feedbacks.
 ### System Requirements
 
 node v8.10.0 (or newer version)
+
 npm 3.5.2 (or newer version)
  
   
@@ -26,12 +27,6 @@ After that, the server is listeninng on port 3333.
 
 ## Request Example:
 
-```json
-{
-	"search" : "smartphone",
-	"limit": 2
-}
-```
 ```bash
 
 $ curl --location 
