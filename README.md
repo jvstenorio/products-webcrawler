@@ -36,10 +36,10 @@ After that, the server is listeninng on port 3333.
 
 $ curl --location 
        --request POST 'localhost:3333/products/' \
-	   --header 'Content-Type: application/json' \
+       --header 'Content-Type: application/json' \
        --data-raw '{
                         "search" : "smartphone",
-						"limit": 2
+			"limit": 2
                    }'
 
 ```
@@ -48,34 +48,19 @@ $ curl --location
 
 ```json
 [
-
-{
-
-"name": "Xiaomi Redmi Note 8 Dual SIM 64 GB Azul-netuno 4 GB RAM",
-
-"url": "https://www.mercadolivre.com.br/xiaomi-redmi-note-8-dual-sim-64-gb-azul-netuno-4-gb-ram/p/MLB15188554?source=search#searchVariation=MLB15188554&position=1&type=product&tracking_id=3b636d60-f8c8-45ba-8685-86e1499700b8",
-
-"price": "1056.00",
-
-"store": null,
-
-"state": null
-
-},
-
-{
-
-"name": "Samsung Galaxy A20 Dual SIM 32 GB Vermelho 3 GB RAM",
-
-"url": "https://www.mercadolivre.com.br/samsung-galaxy-a20-dual-sim-32-gb-vermelho-3-gb-ram/p/MLB14643309?source=search#searchVariation=MLB14643309&position=2&type=product&tracking_id=3b636d60-f8c8-45ba-8685-86e1499700b8",
-
-"price": "899.00",
-
-"store": "Novo Mundo",
-
-"state": null
-
-}
-
+    {
+        "name": "Xiaomi Redmi Note 8 Dual SIM 64 GB Azul-netuno 4 GB RAM",
+        "url": "https://www.mercadolivre.com.br/xiaomi-redmi-note-8-dual-sim-64-gb-azul-netuno-4-gb-ram/p/MLB15188554?source=search#searchVariation=MLB15188554&position=1&type=product&tracking_id=3b636d60-f8c8-45ba-8685-86e1499700b8",
+        "price": "1056.00",
+        "store": null,
+        "state": null
+    },
+    {
+        "name": "Samsung Galaxy A20 Dual SIM 32 GB Vermelho 3 GB RAM",
+        "url": "https://www.mercadolivre.com.br/samsung-galaxy-a20-dual-sim-32-gb-vermelho-3-gb-ram/p/MLB14643309?source=search#searchVariation=MLB14643309&position=2&type=product&tracking_id=3b636d60-f8c8-45ba-8685-86e1499700b8",
+        "price": "899.00",
+        "store": "Novo Mundo",
+        "state": null
+    }
 ]
 ```
